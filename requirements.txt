@@ -1,0 +1,10 @@
+fastapi==0.68.2 # used for serving the API endpoints on model training, prediction, and downloading of the trained model
+uvicorn==0.15.0 # ASGI server to run FastAPI app
+plotly==5.5.0 # data visualization library
+pandas==1.3.4 # data manipulation and analysis library
+pydantic==1.8.2 # checking the parameters and data types passed for generating the dashboards
+python-multipart==0.0.5 # parsing of multipart/form-data in Python - used for handling file uploads
+python-docx==0.8.11 # reading and writing Word files
+openpyxl==3.0.9 # reading and writing Excel files
+kaleido==0.2.1 # used for converting plotly figures to images
+aiofiles==23.1.0 # used for handling file uploads
